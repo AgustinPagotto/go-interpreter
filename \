@@ -1,0 +1,12 @@
+package parser
+
+import (
+	"github.com/AgustinPagotto/go-interpreter/lexer"
+	"github.com/AgustinPagotto/go-interpreter/token"
+)
+
+type Parser struct {
+	l         *lexer.Lexer
+	curToken  token.Token
+	peekToken token.Token
+}
