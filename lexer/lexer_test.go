@@ -6,7 +6,6 @@ import (
 )
 
 func TestNextToken(t *testing.T) {
-	//input := `=+(){},;`
 	input := `let five = 5;
 let ten = 10;
 let add = fn(x,y) {
@@ -25,6 +24,8 @@ let result = add(five, ten);
 
 10 == 10;
 10 != 9;
+	"foobar"
+	"foo bar"
 `
 	tests := []struct {
 		expectedType    token.TokenType
@@ -103,6 +104,8 @@ let result = add(five, ten);
 		{token.NOT_EQ, "!="},
 		{token.INT, "9"},
 		{token.SEMICOLON, ";"},
+		{token.STRING, "foobar"},
+		{token.STRING, "foo bar"},
 		{token.EOF, ""},
 	}
 
