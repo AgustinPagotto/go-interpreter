@@ -21,6 +21,7 @@ go-interpreter is a personal and learn focused project, it's objective is to gai
 ## Features
 
 This project is built for the monkey programming language that has:
+```
       	    __,__
    .--.  .-"     "-.  .--.
   / .. \/  .-. .-.  \/ .. \
@@ -32,7 +33,7 @@ This project is built for the monkey programming language that has:
        \   \ '~' /   /
         '._ '-=-' _.'
            '-----'
-
+```
 - C-like syntax
 - variable binding
 - integers, booleans, arrays and hash map.
