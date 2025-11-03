@@ -1,6 +1,6 @@
 # go-interpreter
 
-## About go_webcrawler
+## About go-interpreter
 
 This project was made following and learning with https://interpreterbook.com/ by the great Thorsten Ball.
 
