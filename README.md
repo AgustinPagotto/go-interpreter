@@ -7,7 +7,7 @@ This project was made following and learning with https://interpreterbook.com/ b
 go-interpreter is a personal and learn focused project, it's objective is to gain more in depth knowledge about GO and how interpreters work:
 * How to build a REPL.
 * How to structure a GO project.
-* Set basics rules about a "new" programming languege.
+* Set basics rules about a "new" programming language.
 * How to tokenize, parse and evaluate strings.
 * How to setup environments to save variables.
 * How to make different variables work.
